@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cnt_azul_profundo">#003B73</color>
+    <color name="cnt_azul_institucional">#00549F</color>
+    <color name="cnt_celeste_cian">#009FE3</color>
+    <color name="cnt_celeste_suave">#E6F5FC</color>
+
+    <color name="cnt_fondo_app">#F4F7FA</color>
+    <color name="cnt_blanco">#FFFFFF</color>
+    <color name="cnt_texto_principal">#1E293B</color>
+    <color name="cnt_texto_secundario">#475569</color>
+    <color name="cnt_borde_tarjeta">#CBD5E1</color>
+
+    <color name="cnt_verde_whatsapp">#16A34A</color>
+    <color name="cnt_alerta_fondo">#FFFBEB</color>
+    <color name="cnt_alerta_texto">#92400E</color>
+</resources>
