@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cnt_fondo_app"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cnt_azul_institucional"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="28dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="26dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/cnt_azul_profundo"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="4dp"
+                android:text="CNT EP • SERVICIO AL CLIENTE"
+                android:textColor="@color/cnt_blanco"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Diagnóstico Express"
+                android:textColor="@color/cnt_blanco"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Verificación automática de red móvil y APN"
+                android:textColor="@color/cnt_celeste_suave"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cnt_alerta_fondo"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIAGNÓSTICO DE APN"
+                    android:textColor="@color/cnt_azul_profundo"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDiagnosticoApn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Analizando estado de la red..."
+                    android:textColor="@color/cnt_alerta_texto"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="@color/cnt_blanco"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PARÁMETROS DE RED DETECTADOS"
+                    android:textColor="@color/cnt_azul_institucional"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Operador / Código PLMN"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvOperador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Estado de Tarjeta SIM"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvEstadoSim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tecnología de Red"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvTecnologiaRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Estado de Datos Móviles"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvDatosMoviles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Calidad de Señal"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvCalidadSenal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Conexión Activa"
+                    android:textColor="@color/cnt_texto_secundario"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tvConexionActiva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cargando..."
+                    android:textColor="@color/cnt_texto_principal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cnt_azul_profundo"
+                android:text="Actualizar Diagnóstico"
+                android:textColor="@color/cnt_blanco"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAbrirApn"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/cnt_azul_institucional"
+                android:text="Configurar APN (Copia internet.cnt.net.ec)"
+                android:textColor="@color/cnt_blanco"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnModoRed"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/cnt_celeste_cian"
+                android:text="Abrir Modo de Red (5G / 4G / 3G)"
+                android:textColor="@color/cnt_blanco"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnEnviarWhatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/cnt_verde_whatsapp"
+                android:text="Enviar Reporte por WhatsApp a SAC"
+                android:textColor="@color/cnt_blanco"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
